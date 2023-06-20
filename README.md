@@ -1,5 +1,6 @@
 # Learn C++ for Game Development 🕹️
 *Instructor: Stephen Ulibarri*
+
 Course link: [Learn C++ for Game Development](https://www.udemy.com/course/learn-cpp-for-ue4-unit-1/)
 
 ## Objective 🔍
