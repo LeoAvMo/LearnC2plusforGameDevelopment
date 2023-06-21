@@ -61,3 +61,33 @@ system("pause");
 | *double* | Larger than 4 bytes | Typically 8 bytes (double the size of a float). |
 
 - *Void Data Types 🔮*: Describe a set of empty values and no variable of type *void* can be specifiied. *void* data types are mainly used to describe the return type for functions that don't return anything.
+
+## Statement and Expressions 📥📤
+
+- **Expression**: Combines things, returns a value. *Examples:*
+```C++
+2+2
+"hello"
+```
+- **Statement**: Executes a sequence of operations, carry out an action without returning a value. It doesn't return something, but changes things. *Example:* 
+```C++
+int x;
+```
+- **Expression Statement**: There can be an expression inside of a statement, this is called Expression Statement. *Example:*
+```C++
+int x = 4;
+int y = x + 1;
+```
+
+## Truth values 🟢🔴
+### Main concept
+0 or 1, yes or no, truth or false. The compiler treats any value other than 0 as True. Characters also have truth values becuase of ASCII.
+|Value|True or False|
+|-----|-------------|
+|0|False|
+|1| True |
+|-1|True|
+|00|False|
+|0.00|False|
+|0.000001|True|
+### Relational operators
