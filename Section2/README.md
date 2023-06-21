@@ -1,5 +1,6 @@
 # Section 2
 
+This will be the folder for the code and notes taken during **Section 2: Input/Output Streams, Varibles, Truth Values, Relational Operators**.
 ## Getting started with Hello World 💻!
 
 ```C++
@@ -80,7 +81,8 @@ int y = x + 1;
 ```
 
 ## Truth values 🟢🔴
-### Main concept
+*Resources: [Relational Operators](https://cplusplus.com/reference/list/list/operators/)*
+### Main concept ☁️
 0 or 1, yes or no, truth or false. The compiler treats any value other than 0 as True. Characters also have truth values becuase of ASCII.
 |Value|True or False|
 |-----|-------------|
@@ -90,4 +92,18 @@ int y = x + 1;
 |00|False|
 |0.00|False|
 |0.000001|True|
-### Relational operators
+### Relational operators 🙂😕
+Used to compare things.
+|Operator| Definition|Example|
+|-|-|-|
+|>|Greater than...| 5>4 is True|
+|<|Less than...| 4<5 is True|
+|>=|Greater than or equal...| 4>=4 is True, 5>=4 is True|
+|<=| Less than or equal...| 4<=4 is True, 4<=6 is True|
+|==| Equal to...| 5==5 is True|
+|!=| Not equal to...| 5!=4 is True|
+|!|Negation (Inverts the Boolean Value)|!False is True|
+
+*Was that clear? Let's check an example: Is the output True or False?✅❎*
+
+!(5!=4) is False
