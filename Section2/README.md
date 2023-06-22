@@ -130,3 +130,14 @@ else
 }
 ```
 The machine will print "*a and b are different*" since the condition in the first if statement wasn't met.
+
+*Else if* statements is another conditional that can be evaluated. Only the section of the code where the conditional evaluates True will be run.
+```C++
+if(Expression)
+{Statement(s)}
+else if(Expression)
+{Statement(s)}
+else
+{Statement(s)}
+```
+In this code, just one block of code will be run. The one where the conditions are True will be run. 
