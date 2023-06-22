@@ -109,6 +109,8 @@ Used to compare things.
 !(5!=4) is False
 
 ## Conditionals ☝️
+*Resources: [Statements and flow control](https://cplusplus.com/doc/tutorial/control/)*
+
 The statements of an if conditional won't run if the expression(s) are not met. You can use an else to make other statements in case the condition isn't met. The basic syntax of and if statement is:
 ```C++
 if (Expression) 
