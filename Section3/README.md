@@ -1,7 +1,7 @@
 # Section 3. Scope, Identifiers, Keywords, and Functions
 
 ## Scope 🔍
-Resources: [Scope](https://en.cppreference.com/w/cpp/language/scope)
+*Resources: [Scope](https://en.cppreference.com/w/cpp/language/scope)*
 ### Definition and examples 📖
 Curly braces represent **scope**. Everything inside the **scope** is defined for that block. From the starting curly brace to the finishing cruly brace is a *block*. Inside the *block*, there is what is known as **local scope**. 
 ```C++
@@ -56,3 +56,4 @@ int main()
 }
 ```
 The machine will print 15 since it doesn't know that the variable a = 10 that is inside the nested block exists. Outer blocks don't have access to variables in the inner blocks, but inner blocks have access to variables in the outer blocks.
+## Identifiers
