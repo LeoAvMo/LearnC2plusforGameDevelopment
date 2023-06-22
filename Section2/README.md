@@ -107,3 +107,26 @@ Used to compare things.
 *Was that clear? Let's check an example: Is the output True or False?✅❎*
 
 !(5!=4) is False
+
+## Conditionals ☝️
+The statements of an if conditional won't run if the expression(s) are not met. You can use an else to make other statements in case the condition isn't met. The basic syntax of and if statement is:
+```C++
+if (Expression) 
+{
+  ...Statements
+}
+```
+Example of conditionals. What will the **output** be?
+```C++
+int a = 5;
+int b = 6;
+if (a == b) 
+{
+  cout << "a and b are equal" << endl;
+}
+else
+{
+  cout << "a and b are different" << endl;
+}
+```
+The machine will print "*a and b are different*" since the condition in the first if statement wasn't met.
