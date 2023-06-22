@@ -1,6 +1,6 @@
 # Section 2
 
-This will be the folder for the code and notes taken during **Section 2: Input/Output Streams, Varibles, Truth Values, Relational Operators**.
+This will be the folder for the code and notes taken during **Section 2: Input/Output Streams, Varibles, Truth Values, Relational Operators**. Source.cpp is the file used as an intro for the course and Conditionals.cpp is a conditional practice.
 ## Getting started with Hello World 💻!
 
 ```C++
@@ -116,7 +116,7 @@ if (Expression)
   ...Statements
 }
 ```
-Example of conditionals. What will the **output** be?
+Example of conditionals. What will the **output** be 🤓?
 ```C++
 int a = 5;
 int b = 6;
