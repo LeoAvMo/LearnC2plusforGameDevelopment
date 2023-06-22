@@ -1,4 +1,4 @@
-# Section 2
+# Section 2. Input/Output Streams, Variables, Truth Values, Relational Operators
 
 This will be the folder for the code and notes taken during **Section 2: Input/Output Streams, Varibles, Truth Values, Relational Operators**. Source.cpp is the file used as an intro for the course and Conditionals.cpp is a conditional practice.
 ## Getting started with Hello World 💻!
