@@ -56,4 +56,23 @@ int main()
 }
 ```
 The machine will print 15 since it doesn't know that the variable a = 10 that is inside the nested block exists. Outer blocks don't have access to variables in the inner blocks, but inner blocks have access to variables in the outer blocks.
-## Identifiers
+## Identifiers 🏷️
+*Resources: [Identifiers](https://en.cppreference.com/w/cpp/language/identifiers)*
+
+A name assigned to a program element (like variables, types, functions, namespaces, templates, classes, etc.).  You can name identifiers using letters, numbers, and underscores.
+
+### Case sensitive ⚠️
+myInt is different from MyInt, these are 2 separate variables. Capitalization matters.
+### Illegal identifiers
+There are some rules to how you can write identifiers. It cannot start with a number or a character outside of letters or undersocres. It cannot contain characters apart from letters, numbers, and underscores. Some non-valid identifiers can be: 
+```C++
+$MyInt  //Cannot use $ sign
++data+  //Cannot use operators (+)
+32MyChar  //Cannot start with numbers
+**special_variable**  //Cannot use operators (*)
+my-Bool  //Cannot use operators(-)
+```
+### Conventions 🤝
+Little details most programmers do to name their variables.
+- **Camel-case**: The first letter of the variable is a lower case and if the variable consists of multiple words, the others start with a capital letter. Example: **myFirstInt**. Variables start with lower cases because class identifiers are usually written with capital letters.
+- **Naming**: Be descriptive with the variable's name so the code can be mmore interactive and redable. Example: **xCoordinate**.
