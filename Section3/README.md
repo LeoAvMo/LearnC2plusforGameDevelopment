@@ -76,3 +76,7 @@ my-Bool  //Cannot use operators(-)
 Little details most programmers do to name their variables.
 - **Camel-case**: The first letter of the variable is a lower case and if the variable consists of multiple words, the others start with a capital letter. Example: **myFirstInt**. Variables start with lower cases because class identifiers are usually written with capital letters.
 - **Naming**: Be descriptive with the variable's name so the code can be mmore interactive and redable. Example: **xCoordinate**.
+### Keywords 🗝️
+There are some words that have a functionality in the program, so these cannot be used to name a variable. The complete list of locked keywords can be found here: *[Keywords(C++)](https://learn.microsoft.com/en-us/cpp/cpp/keywords-cpp?view=msvc-170)
+## Functions 📥📤 
+A way to write a certain amount of code that can be reused and can change from case to case depending on its input. All functions return a value, even if they don't. This means it will return a *void* data type. You need to **call** or **invoke** a function to use it, sometimes with input parameters (or aguments). A funciton's body starts and ends with the curly braces ({}), meaning the code that will be reused will be what is inside them. 
