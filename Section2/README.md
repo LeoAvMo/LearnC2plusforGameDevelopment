@@ -1,4 +1,4 @@
-# Section 2
+# Section 2. Input/Output Streams, Variables, Truth Values, Relational Operators
 
 This will be the folder for the code and notes taken during **Section 2: Input/Output Streams, Varibles, Truth Values, Relational Operators**. Source.cpp is the file used as an intro for the course and Conditionals.cpp is a conditional practice.
 ## Getting started with Hello World 💻!
@@ -109,6 +109,8 @@ Used to compare things.
 !(5!=4) is False
 
 ## Conditionals ☝️
+*Resources: [Statements and flow control](https://cplusplus.com/doc/tutorial/control/)*
+
 The statements of an if conditional won't run if the expression(s) are not met. You can use an else to make other statements in case the condition isn't met. The basic syntax of and if statement is:
 ```C++
 if (Expression) 
